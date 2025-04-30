@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#game {
+    width: 180px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 5px;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+    background: #f0f0f0;
+    font-size: 36px;
+    line-height: 60px;
+    cursor: pointer;
+    border: 1px solid #999;
+}
